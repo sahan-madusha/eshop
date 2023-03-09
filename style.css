@@ -1,0 +1,133 @@
+@font-face {
+    font-family:"quicksand";
+    src: url(./font/Quicksand-Medium.ttf);
+}
+@font-face {
+    font-family:"honey";
+    src: url(./font/HoneyScript-Light.ttf);
+}
+a:hover{
+    cursor: pointer;
+}
+*{
+    font-family: "quicksand";
+    font-size: 14px;
+}
+.main_body{
+    background-image: url(./resource/background-body.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    background-image: url(./resource/logo.svg);
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title1{
+    letter-spacing: 3px;
+    font-family: "honey";
+    font-size: 5rem;
+}
+.background{
+    background-image: url(./resource/background.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*SignUpalert*/
+.SignUpalert{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 15px !important;
+    display: inline !important;
+}
+.cart-icon{
+    background-image: url(./resource/cartico.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.poster-img-1{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.poster-caption{
+    margin-top: 150px;
+}
+.poster-title{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.poster-txt{
+    font-size: 20px;
+    color: gray;
+}
+
+.poster-caption-1{
+    margin-bottom: 70px;
+    margin-right: 250px;
+}
+
+.qty-buttons{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(72,71,71);
+}
+
+.qty-inc,.qty-dec{
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty-inc{
+    border-top-right-radius: 5px;
+}
+
+.qty-dec{
+    border-bottom-right-radius: 5px;
+}
+
+.emptyView{
+    height: 400px;
+    background-image: url("resource/watchlistEmptyView.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.emptyCart{
+    height: 400px;
+    background-image: url("resource/emptycart.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.invoiceHeaderImage{
+    height: 80px;
+    background-image: url("resource/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.message_box,
+.chat_box{
+    height: 510px;
+    overflow-y: scroll;
+}
