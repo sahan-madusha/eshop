@@ -205,17 +205,3 @@ require "./dbConn.php";
     <!-- JavaScript Bundle with Popper -->
 </body>
 </html>
-
-<!--
-vh-100 = vh =100
-d-flex = diplay-flex
--->
-
-
-
-
-
-
-<!--
-    sahan madusha , sahanmadusha001@gmail.com , 200004400162 , 0771617400
-                            -->
